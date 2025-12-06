@@ -119,7 +119,7 @@
                                 <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="distanceIcon" onMouseClicked="#distanceIconClicked" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@/images/measure-distance.png" />
+                                        <Image url="@/measure-distance.png" />
                                     </image>
                                 </ImageView>
                             </children>
@@ -131,7 +131,7 @@
                                 <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="nameIcon" onMouseClicked="#nameIconClicked" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@/images/user.png" />
+                                        <Image url="@/user.png" />
                                     </image>
                                 </ImageView>
                             </children>
@@ -143,7 +143,7 @@
                                 <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="timeIcon" onMouseClicked="#timeIconClicked" fitHeight="150.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@/images/time-passing.png" />
+                                        <Image url="@/time-passing.png" />
                                     </image>
                                 </ImageView>
                             </children>
@@ -155,15 +155,15 @@
                                 <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="paceIcon" onMouseClicked="#paceIconClicked" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@/images/clock.png" />
+                                        <Image url="@/clock.png" />
                                     </image>
                                 </ImageView>
                             </children>
                         </StackPane>
                     </children>
                 </GridPane>
-                <Button fx:id="sortBtn" mnemonicParsing="false" prefWidth="100.0" text="Sort" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                <Button fx:id="csvBtn" mnemonicParsing="false" prefWidth="100.0" text="Save to CSV" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <Button fx:id="sortBtn" mnemonicParsing="false" prefWidth="100.0" text="Sort" onMouseClicked="#sortBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Button fx:id="csvBtn" mnemonicParsing="false" prefWidth="100.0" text="Save to CSV" onMouseClicked="#csvBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="1" />
             </children>
         </GridPane>
     </children>
