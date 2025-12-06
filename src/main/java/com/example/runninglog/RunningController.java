@@ -18,7 +18,7 @@ import java.util.Comparator;
  * Controller for the Running Log application.
  * Manages data input, pace calculation, table display, sorting, and CSV export.
  */
-public class HelloController {
+public class RunningController {
 
     // --- FXML UI Elements (Input) ---
     @FXML private TextField nameInput;

@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #F8FDFF;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.runninglog.HelloController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #F8FDFF;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.runninglog.RunningController">
     <children>
         <GridPane vgap="10.0">
             <columnConstraints>
@@ -46,7 +46,7 @@
                         <Insets />
                     </GridPane.margin>
                 </Text>
-                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Time (minutes:" GridPane.rowIndex="2">
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Time (minutes):" GridPane.rowIndex="2">
                     <font>
                         <Font size="18.0" />
                     </font>
