@@ -114,9 +114,7 @@
                     <children>
                         <StackPane prefHeight="150.0" prefWidth="200.0">
                             <children>
-                                <!-- Added fx:id for the circle background -->
                                 <Circle fx:id="distanceCircle" fill="#d7ecff" radius="25.0" stroke="#fbe3e3" strokeType="INSIDE" />
-                                <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="distanceIcon" onMouseClicked="#distanceIconClicked" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
                                         <Image url="@/measure-distance.png" />
@@ -126,9 +124,7 @@
                         </StackPane>
                         <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
                             <children>
-                                <!-- Added fx:id for the circle background -->
                                 <Circle fx:id="nameCircle" fill="#d7ecff" radius="25.0" stroke="#fbe3e3" strokeType="INSIDE" />
-                                <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="nameIcon" onMouseClicked="#nameIconClicked" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
                                         <Image url="@/user.png" />
@@ -138,9 +134,7 @@
                         </StackPane>
                         <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2">
                             <children>
-                                <!-- Added fx:id for the circle background -->
                                 <Circle fx:id="timeCircle" fill="#d7ecff" radius="25.0" stroke="#fbe3e3" strokeType="INSIDE" />
-                                <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="timeIcon" onMouseClicked="#timeIconClicked" fitHeight="150.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
                                         <Image url="@/time-passing.png" />
@@ -150,9 +144,7 @@
                         </StackPane>
                         <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3">
                             <children>
-                                <!-- Added fx:id for the circle background -->
                                 <Circle fx:id="paceCircle" fill="#d7ecff" radius="25.0" stroke="#fbe3e3" strokeType="INSIDE" />
-                                <!-- Moved onMouseClicked to the ImageView -->
                                 <ImageView fx:id="paceIcon" onMouseClicked="#paceIconClicked" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
                                         <Image url="@/clock.png" />
